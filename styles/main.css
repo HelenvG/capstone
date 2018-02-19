@@ -118,3 +118,17 @@ float: right;
     padding: 10px;}
 
 
+    @media screen and (max-width : 760px){
+      
+      #logo {
+        height: auto;
+        width: 20vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+      }
+
+
+
+
+    }
