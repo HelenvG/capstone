@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* Simple fluid media
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+.ie6 img {
+	width:100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;}
+
+  .page {
+    max-width: 640px;
+    margin: 0 auto 30px auto;}
+  
+  .panel {
+    background-color: #fff;
+    color: #666;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    overflow: auto;}
+
+    div.container {
+      width: 100%;
+      border: 1px solid gray;
+  }
+
+  footer { 
+    display: block;
+    font-weight: 100;
+    text-align:center;
+    font-size: 0.8em;
+    padding: 2%;
+
+}
+
+#social {
+height: auto;
+position: absolute;
+top: 4%;
+right: 4%;
+float: right;
+}
+
+#helen {
+  float: left;
+  bottom: 2%;
+  left: 2%;
+}
+  
+  button {
+    border: none;}
+
+#logo {
+	margin-left: 4%;
+	height: auto;
+	display: block;	
+}
+
+  h1 {
+    text-align: center;
+    white-space: nowrap;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight:200;
+    font-size: 4vw;
+  } 
+  
+  body, button {
+      font-family: 'Roboto', sans-serif;
+    }
+  
+  h2, h3 {
+    font-weight: normal;
+    margin: 0;}
+
+  h2 {
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 230%;
+    line-height: 1em;
+    padding: 20px 0 0 20px;}
+  h3 {
+    font-size: 90%;
+    letter-spacing: 0.2em;}
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4em;
+    color: #666;}
+  
+  a {
+      text-decoration: none;}
+  
+  button {
+    font-size: 90%;
+    text-align: left;
+    text-transform: uppercase;}
+  
+  #billboard {text-align: center;}
+  .js-warning {display: none;}
+  
+  .no-js .js-warning {
+    display: block;
+    border: 3px solid #fff;
+    text-align: center;
+    background-color: #fff;
+    color: #db5391;
+    padding: 10px;}
+
+

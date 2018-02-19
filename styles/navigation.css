@@ -1,0 +1,54 @@
+
+#navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+
+#navbar a {
+  display: block;
+  color: #a7a2a8;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  text-align:center;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    display: inline-block;
+    padding: 10px;
+}
+
+#navbar li:hover a {
+    font-weight: 700;
+    color: #636263;
+}
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;  
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+  -webkit-box-shadow: 0 8px 6px -6px #a7a2a8;
+  -moz-box-shadow: 0 8px 6px -6px #a7a2a8;
+  box-shadow: 0 8px 6px -6px #a7a2a8;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+

@@ -1,0 +1,33 @@
+
+div.container {       /* waarschijnlijk niet nodig omdat het ook in main.css staat */
+    width: 100%;
+    border: 1px solid gray;
+}
+
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 2%;
+}
+
+.portaitamoy {
+    width:170px;
+    height:170px;
+    margin-right:5%;
+    padding-bottom: 2%;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 90%;
+        padding: 4%;
+    }
+}
