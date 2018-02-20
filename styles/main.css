@@ -69,6 +69,7 @@ float: right;
   display: none;
 }
 
+
   h1 {
     text-align: center;
     white-space: nowrap;
@@ -109,6 +110,7 @@ float: right;
     font-size: 90%;
     text-align: left;
     text-transform: uppercase;}
+    
   
   #billboard {text-align: center;}
   .js-warning {display: none;}

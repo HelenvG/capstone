@@ -25,21 +25,47 @@
   
   .slide:first-child {
       display: block;
+      overflow: hidden;
       }
 
 
 
 .slider-text {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
   
+.sliderbutton-gallery {
+  width: 10vw;
+  height: auto;
+  border: 2px solid #fff;
+  color: #fff;
+  position: absolute;
+  margin-top: 4%;
+  padding: 2%;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+
+.sliderbutton-gallery:hover {
+  background-color: #fff;
+  color: #666;
+}
+
   
 
-  .slide-buttons {
+ /* .slide-buttons {
     text-align: center;}
   
   .slide-btn {
@@ -52,4 +78,4 @@
   
   .slide-btn.active, .slide-btn:hover {
     color: #636263;
-    cursor: pointer;}
+    cursor: pointer;} */

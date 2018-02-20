@@ -2,7 +2,7 @@ $('.slider').each(function() {
   var $this   = $(this);                  
   var $group  = $this.find('.slide-group'); 
   var $slides = $this.find('.slide');      
-  var buttonArray  = [];                   
+ // var buttonArray  = [];                   
   var currentIndex = 0;                  
   var timeout;                             
 
@@ -14,8 +14,8 @@ $('.slider').each(function() {
       return;
     }
 
-    buttonArray[currentIndex].removeClass('active'); 
-    buttonArray[newIndex].addClass('active');        
+  //  buttonArray[currentIndex].removeClass('active'); 
+  //  buttonArray[newIndex].addClass('active');        
 
     if (newIndex > currentIndex) {   
       slideLeft = '100%';            
@@ -46,17 +46,17 @@ $('.slider').each(function() {
     }, 4000);                              
   }
 
-  $.each($slides, function(index) {
+ // $.each($slides, function(index) {
     // Create a button element for the button
-    var $button = $('<button type="button" class="slide-btn">&bull;</button>');
-    if (index === currentIndex) {   
-      $button.addClass('active');    
-    }
-    $button.on('click', function() { 
-      move(index);                  
-    }).appendTo('.slide-buttons');   
-    buttonArray.push($button);       
-  });
+ //   var $button = $('<button type="button" class="slide-btn">&bull;</button>');
+  //  if (index === currentIndex) {   
+ //     $button.addClass('active');    
+ //   }
+ //   $button.on('click', function() { 
+ //     move(index);                  
+ //   }).appendTo('.slide-buttons');   
+ //   buttonArray.push($button);       
+ // });
 
   advance();                          
 
