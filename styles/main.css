@@ -65,6 +65,10 @@ float: right;
 	display: block;	
 }
 
+#homeimg_mobile {
+  display: none;
+}
+
   h1 {
     text-align: center;
     white-space: nowrap;
@@ -116,6 +120,28 @@ float: right;
     background-color: #fff;
     color: #db5391;
     padding: 10px;}
+
+
+    @media only screen and (max-width: 480px) {
+
+      body{
+        margin: 0;
+        padding: 0;
+        border: none;
+        
+      }
+
+      .slider {
+        display: none;
+      }
+      
+      #homeimg_mobile{
+        max-width: 100vw;
+        margin: 0px auto; 
+        display:block;
+        height: auto;
+        position: absolute;
+        }
 
 
     @media screen and (max-width : 760px){
