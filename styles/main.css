@@ -16,14 +16,14 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;}
 
-  #wrapper {
+ /* #wrapper {
     width: 100vw;
     max-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     background-color:#ffffff;
     position: relative;
-    }
+    } */
 
   .page {
     max-width: 640px;
