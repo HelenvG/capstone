@@ -75,10 +75,17 @@
   
   @media screen and (max-width : 760px){
   
-    ul {
-        position: static;
-        display: none;
-    }
+    ul#navbar {
+      position: static;
+      display: none;
+      text-align:left;
+      margin: 0;
+  }
+
+  #navbar  a {
+    padding: 4%;
+    text-align: left;
+} 
   
     li {
         margin-bottom: 1px;

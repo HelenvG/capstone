@@ -103,10 +103,18 @@ ul#navbar.sticky {
 
 @media screen and (max-width : 760px){
 
-  ul {
+  ul#navbar {
       position: static;
       display: none;
+      text-align:left;
+      margin: 0;
   }
+  
+
+  #navbar  a {
+    padding: 4%;
+    text-align: left;
+} 
 
   li {
       margin-bottom: 1px;
@@ -116,7 +124,7 @@ ul#navbar.sticky {
       width: 100%;
         }
         
-  #navbar a {
+  a {
       text-align:left;
         }
 
