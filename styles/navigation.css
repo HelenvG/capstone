@@ -3,6 +3,7 @@
   overflow: hidden;
   background-color: #ffffff;
   text-align: center;
+  z-index: 1;
 }
 
 #navbar a {
