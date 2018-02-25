@@ -45,7 +45,23 @@
                 <ul id="filter_wrapper">
       <div class="row"> 
        <div class="column">
-         <li class="travel"><img src="images/gallerytest2.png"></li>
+         <li class="travel"><img id="amoyImg" src="images/gallerytest2.png"></li>
+ <!-- The Modal -->
+ <div id="imgZoom" class="zoom">
+            
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+  
+    <!-- Modal Content (The Image) -->
+    <img class="zoom-content" id="img01">
+  
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
+
+
+
          <li class="portrait"><img src="images/gallerytest3.png"></li>
          <li class="animals"><img src="images/gallerytest2.png"></li>
          <li class="travel"><img src="images/gallerytest1.png"></li>
@@ -100,5 +116,6 @@
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="scripts/navigation.js"></script> 
     <script src="scripts/filter.js"></script> 
+    <script src="scripts/zoom.js"></script> 
     </body>
 </html>
