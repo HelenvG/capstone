@@ -1,0 +1,115 @@
+<html>
+    <head>
+    <title>Amoy Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/navigation.css" rel="stylesheet" type="text/css">
+    <link href="styles/contact.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    
+<header>
+        <div id="logo">
+                <a href="index.html"><img width="150" src="images/amoy_logo_grey.png" onmouseover="this.src='images/amoy_pink_background.png'" onmouseout="this.src='images/amoy_logo_grey.png'"alt="logo_amoyphotography"/></a>
+                </div>
+
+            <div id="social">
+                    <a href="https://www.instagram.com/amoyengel/" target="blank">
+                      <img id="instagram" src="images/instagram-logo-grey.png" onmouseover="this.src='images/instagram-color.png'" onmouseout="this.src='images/instagram-logo-grey.png'" alt="instagram Amoy" width="24" height="24"></a>
+                </div> 
+
+        </header>
+        <label for="show-menu" class="show-menu">&#9776</label>
+        <input type="checkbox" id="show-menu" role="button">
+            <ul id="navbar">
+                    <li><a href='index.html'style="hover:black">HOME</a></li>
+                    <li><a href='gallery.html'>GALLERY</a></li>
+                    <li><a href='about.html'>ABOUT</a></li>   
+                    <li><a href=#>CONTACT</a></li>
+            </ul> 
+    
+                <div class="row">
+            <div class="column">
+                    <p>Amoy Engel</p>
+                    <p>+31 623 486 372</p>
+                    <p><li><a href='amoy_engel@live.nl'style="hover:black">amoy_engel@live.nl</a></li></p>
+                    <p></p>
+                    <p>Adress</p>
+                    <p>Postal code, City</p>
+                    <p>Country</p>
+                  </div>
+                  <div class="column">
+                    <form action="formtoemail.php" method="post" name="form" id="form">
+
+                        <!-- hier begint naam -->
+                        
+                        <br>
+                        <br>
+                          
+                        <p><label for="name">Name</label></p>
+                        <input type="name" name="name" id="name">
+                        
+                        
+                          <!-- hier begint email -->
+            
+                          <br>
+                          <br>
+                          <br>
+                         <p><label for="email">E-mail</label></p>
+                         <input name="email" type="email" id="email" size="40">
+                        
+                        
+                        
+                        <!-- selectiebox-->
+                        <br>
+                         <br>
+                         <br>
+                        
+                        <p><label for="select">Subject</label></p>
+                        <select name="select" id="select">
+                          <option value="quote request">Quote request</option>
+                          <option value="collaboration">Collaboration</option>
+                          <option value="other">Other</option>
+                        </select>
+                        
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         
+                         <!--bericht--> 
+                          
+                        <p></p>
+                        <label for="message">message</label>
+                        <br>
+                        <textarea name="message" cols="40" rows="8" maxlength="200" id="message" placeholder="..."></textarea>
+                        <br>
+                        
+                        
+                        
+                        <!--Button-->
+                        
+                        
+                        <br>
+                        <input name="submit" type="submit" id="submit" value="Submit">
+                        <br>
+                        
+                        
+                        
+                        
+                        </form>
+                      </div>
+                    </div>
+
+
+         <footer>
+           <p>All rights reserved 2018 | AMOYPHOTOGRAPHY.nl</p>
+         </footer>        
+                
+
+            <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="scripts/navigation.js"></script> 
+    </body>
+</html>

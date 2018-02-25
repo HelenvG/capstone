@@ -1,10 +1,3 @@
-
-div.container {       /* waarschijnlijk niet nodig omdat het ook in main.css staat */
-    width: 100%;
-    border: 1px solid gray;
-}
-
-
 .column {
     float: left;
     width: 45%;

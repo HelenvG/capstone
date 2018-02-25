@@ -1,0 +1,73 @@
+.column {
+    float: left;
+    width: 45%;
+    padding: 2%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#form     {
+	width:100%;
+	left: 2%;
+	position: relative;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.2em;
+	float:left;
+	display: block;
+	
+	
+}
+
+#email {
+	width:60%;
+	float:left;
+	display:block;}
+	
+#name {
+	width:60%;
+	float:left;
+	display:block;}
+	
+#message {
+	width:60%;
+	float:left;
+	display:block;}
+
+#submit  {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.2em;
+	color: #ffffff;
+	background-color: #000000;
+	float:left;
+	display:block;
+	clear:both;
+	margin-top: 2%;
+}
+
+#select {
+	font-family: "Roboto", sans-serif;
+	font-size: 0.9em;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .column {
+        width: 90%;
+        padding: 4%;
+    }
+}
