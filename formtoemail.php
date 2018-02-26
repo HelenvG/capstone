@@ -1,6 +1,6 @@
 <?php
 
-$my_email = "helenvangils@live.nl"; //Vul hiervoor uw e-mailadres in....
+$my_email = "amoy_engel@live.nl"; //Vul hiervoor uw e-mailadres in....
 
 
 $continue = "index.html"; //pagina waar het formulier naartoe gaat als er op de link in de pagina wordt geklikt.
@@ -105,17 +105,17 @@ mail($my_email,$subject,$message,$headers);
 <html>
 
 <head>
-<title>Bedankt voor je bericht, ik neem zo snel mogelijk contact met je op.</title>
+<title>Thank you!</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
-<body bgcolor="#ffffff" text="#000000">
+<body bgcolor="#ffffff" text="#a7a2a8">
 
 <div>
 <center>
-<p><b>Bedankt voor je bericht.</b><br>
-Ik neem zo snel mogelijk contact met je op.<br> </p>
-<p><a href="<?php print $continue; ?>">Klik hier om terug te keren naar PowerBeautyFood</a></p>
+<p><b>Thanks for your message!</b><br>
+Your message just showed up in my inbox. Talk to you soon!<br> </p>
+<p><a href="<?php print $continue; ?>">Back to Amoy Photography</a></p>
 </center>
 </div>
 </body>
