@@ -30,6 +30,11 @@
       font-weight: 700;
       color: #636263;
   }
+
+  #navbar li a:hover {
+    color: rgb(224,163,154);
+    text-decoration: underline;
+  }
   
   li ul {
     display: none;

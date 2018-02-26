@@ -4,6 +4,14 @@
     padding: 2%;
 }
 
+#contact p {
+	text-align: center;
+}
+
+#contact li {
+	text-align: center;
+}
+
 .row:after {
     content: "";
     display: table;
