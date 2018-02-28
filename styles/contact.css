@@ -23,11 +23,9 @@
 	left: 2%;
 	position: relative;
 	font-family: "Roboto", sans-serif;
-	font-size: 1.2em;
+	font-size: 1em;
 	float:left;
-	display: block;
-	
-	
+	display: block;	
 }
 
 #email {
@@ -49,11 +47,15 @@
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2em;
 	color: #ffffff;
-	background-color: #000000;
+	background-color:#a7a2a8;
 	float:left;
 	display:block;
 	clear:both;
 	margin-top: 2%;
+}
+
+#submit:hover  {
+	background-color: rgb(224,163,154);
 }
 
 #select {

@@ -1,8 +1,10 @@
 .column {
     float: left;
-    width: 45%;
+    width: 46%;
     padding: 2%;
+    text-align: center;
 }
+
 
 .portaitamoy {
     width:170px;
