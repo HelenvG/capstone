@@ -1,14 +1,39 @@
-.column {
+.row{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-left: 5vw;
+}
+
+.columnleft {
     float: left;
-    width: 45%;
-    padding: 2%;
+    width: 42%;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding-top: 2%;
+    text-align: left;
+}
+
+.columnright {
+    float: left;
+    width: 28%;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 4%;
+    padding-top: 2%;
+    text-align: center;
+    background-color: lightgrey;
+    height: 100vh;
+}
+
+.columnright h2 {
+	color: white;
 }
 
 #contact p {
 	text-align: center;
 }
 
-#contact li {
+#contact a {
 	text-align: center;
 }
 
@@ -28,18 +53,22 @@
 	display: block;	
 }
 
+#form p{
+	text-align: left;
+}
+
 #email {
-	width:60%;
+	width:80%;
 	float:left;
 	display:block;}
 	
 #name {
-	width:60%;
+	width:80%;
 	float:left;
 	display:block;}
 	
 #message {
-	width:60%;
+	width:80%;
 	float:left;
 	display:block;}
 
@@ -51,7 +80,7 @@
 	float:left;
 	display:block;
 	clear:both;
-	margin-top: 2%;
+	margin-top: 4%;
 }
 
 #submit:hover  {
@@ -64,7 +93,17 @@
 	}
 
 
+@media (max-width: 600px) {
+    .columnleft {
+        width: 90%;
+        padding: 4%;
+    }
 
+    .columnright {
+        width: 90%;
+        padding: 4%;
+    }
+}
 
 
 

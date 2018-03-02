@@ -1,10 +1,37 @@
-.column {
-    float: left;
-    width: 46%;
-    padding: 2%;
-    text-align: center;
+.row{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-left: 5vw;
 }
 
+.columnleft {
+    float: left;
+    width: 42%;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding-top: 2%;
+    text-align: left;
+}
+
+.columnright {
+    float: left;
+    width: 28%;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 4%;
+    padding-top: 2%;
+    text-align: center;
+    background-color: lightgrey;
+    height: 100vh;
+}
+
+#media h2 {
+    color: white;
+}
+
+#media p{
+    color:white;
+}
 
 .portaitamoy {
     width:170px;
@@ -21,7 +48,12 @@
 }
 
 @media (max-width: 600px) {
-    .column {
+    .columnleft {
+        width: 90%;
+        padding: 4%;
+    }
+
+    .columnright {
         width: 90%;
         padding: 4%;
     }

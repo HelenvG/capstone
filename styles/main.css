@@ -16,15 +16,6 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;}
 
- /* #wrapper {
-    width: 100vw;
-    max-height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:#ffffff;
-    position: relative;
-    } */
-
   .page {
     max-width: 640px;
     margin: 0 auto 30px auto;}
@@ -98,7 +89,7 @@ float: right;
     letter-spacing: 0.14em;
     font-size: 230%;
     line-height: 1em;
-    padding: 20px 0 0 20px;}
+    /* padding: 20px 0 0 20px;   */}
 
   h3 {
     font-size: 90%;
@@ -151,6 +142,8 @@ float: right;
       .slider {
         display: none;
       }
+
+    
       
 
       }
@@ -165,7 +158,12 @@ float: right;
         margin-top: 2vh;
       }
 
-
+      #helen{
+        display: block;
+        width: 100%;
+        clear: both;
+        padding-top: 2%;
+        }
 
 
     }
