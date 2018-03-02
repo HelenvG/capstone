@@ -64,7 +64,7 @@
   }
   
   #filter_container  li:hover a {
-      font-weight: 700;
+      text-decoration: underline;
       color: #636263;
   }
 
@@ -74,6 +74,17 @@
 
   ul#filter_container {
     display: inline-block;
+}
+
+ul#filter li.current a {
+    text-decoration: underline;
+}
+ul#filter li.current a { 
+color: #000000;
+}
+
+#filter_container .current {
+    text-decoration: underline;
 }
 
 #amoyImg {
