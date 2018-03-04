@@ -1,28 +1,28 @@
-.row{
-    width: 90vw;
-    margin-left: 5vw;
-    margin-left: 5vw;
+.row {
+	width: 90vw;
+	margin-left: 5vw;
+	margin-left: 5vw;
 }
 
 .columnleft {
-    float: left;
-    width: 42%;
-    margin-top: 2%;
-    margin-left: 10%;
-    padding-top: 2%;
-    text-align: left;
+	float: left;
+	width: 42%;
+	margin-top: 2%;
+	margin-left: 10%;
+	padding-top: 2%;
+	text-align: left;
 }
 
 .columnright {
-    float: left;
-    width: 28%;
-    margin-top: 4%;
-    margin-right: 10%;
-    margin-left: 4%;
-    padding-top: 2%;
-    text-align: center;
-    background-color: lightgrey;
-    height: 100vh;
+	float: left;
+	width: 28%;
+	margin-top: 4%;
+	margin-right: 10%;
+	margin-left: 4%;
+	padding-top: 2%;
+	text-align: center;
+	background-color: lightgrey;
+	height: 100vh;
 }
 
 .columnright h2 {
@@ -38,85 +38,77 @@
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
-#form     {
-	width:100%;
+#form {
+	width: 100%;
 	left: 2%;
 	position: relative;
 	font-family: "Roboto", sans-serif;
 	font-size: 1em;
-	float:left;
-	display: block;	
+	float: left;
+	display: block;
 }
 
-#form p{
+#form p {
 	text-align: left;
 }
 
 #email {
-	width:80%;
-	float:left;
-	display:block;}
-	
-#name {
-	width:80%;
-	float:left;
-	display:block;}
-	
-#message {
-	width:80%;
-	float:left;
-	display:block;}
+	width: 85%;
+	float: left;
+	display: block;
+}
 
-#submit  {
+#name {
+	width: 85%;
+	float: left;
+	display: block;
+}
+
+#message {
+	width: 85%;
+	float: left;
+	display: block;
+}
+
+#submit {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2em;
 	color: #ffffff;
-	background-color:#a7a2a8;
-	float:left;
-	display:block;
-	clear:both;
+	background-color: #a7a2a8;
+	float: left;
+	display: block;
+	clear: both;
 	margin-top: 4%;
 }
 
-#submit:hover  {
-	background-color: rgb(224,163,154);
+#submit:hover {
+	background-color: rgb(224, 163, 154);
 }
 
 #select {
 	font-family: "Roboto", sans-serif;
 	font-size: 0.9em;
-	}
-
-
-@media (max-width: 600px) {
-    .columnleft {
-        width: 90%;
-        padding: 4%;
-    }
-
-    .columnright {
-        width: 90%;
-        padding: 4%;
-    }
 }
 
-
-
-
-
-
-
-
-
+@media (max-width: 600px) {
+	.columnleft {
+		width: 90%;
+		padding: 4%;
+	}
+	.columnright {
+		width: 90%;
+		padding: 4%;
+	}
+}
 
 @media (max-width: 600px) {
-    .column {
-        width: 90%;
-        padding: 4%;
-    }
+	.column {
+		width: 90%;
+		padding: 4%;
+	}
 }

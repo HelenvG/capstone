@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
-     <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Home Amoy photography">
     <meta name="keywords" content="Amoy photography, Amoy fotografie, reisfotograaf, portrait photography, fotograaf Roosendaal, photographer Melbourne">
@@ -14,64 +14,58 @@
     <link href="styles/main.css" rel="stylesheet" type="text/css">
     <link href="styles/slider.css" rel="stylesheet" type="text/css">
     <link href="styles/navigationbasic.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-    
-        <header>
-            <div id="logo">
-                <a href="index.html"><img width="150" src="images/amoy_logo_grey.png" onmouseover="this.src='images/amoy_pink_background.png'" onmouseout="this.src='images/amoy_logo_grey.png'"alt="logo_amoyphotography"/></a>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img width="150" src="images/amoy_logo_grey.png" onmouseover="this.src='images/amoy_pink_background.png'" onmouseout="this.src='images/amoy_logo_grey.png'"alt="logo_amoyphotography"/></a>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com/amoyengel/" target="blank"><img alt="instagram Amoy" height="24" id="instagram" onmouseout="this.src='images/instagram-logo-grey.png'" onmouseover="this.src='images/instagram-color.png'" src="images/instagram-logo-grey.png" width="24"></a>
+        </div>    
+    </header>
+    <label for="show-menu" class="show-menu">&#9776</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="navbar">
+            <li><a href='index.html'style="color: rgb(224,163,154)">HOME</a></li>
+            <li><a href='gallery.html'>GALLERY</a></li>
+            <li><a href='about.html'>ABOUT</a></li>   
+            <li><a href='contact.html'>CONTACT</a></li>
+        </ul> 
+    <div class="container">
+        <section>
+            <div class="slider">
+                <div class="slide-viewer">
+                    <div class="slide-group"> 
+                        <!-- slider -->
+                        <div class="slide slide-1"><img alt="slider1" src="images/slider1.jpg"></div>
+						            <div class="slide slide-2"><img alt="slider2" src="images/slider2.jpg"></div>
+					            	<div class="slide slide-3"><img alt="slider3" src="images/slider3.jpg"></div>
+                    </div>
+                    <div class="slider-text">
+                        <h1>AMOY PHOTOGRAPHY</h1><a href="gallery.html">
+                        <div class="sliderbutton-gallery">
+                            GALLERY
+                        </div></a>
+                    </div>
+                </div> <!--    <div class="slide-buttons"></div> -->
+            </div> 
+            <div id="homeimg_mobile">
+                <img alt="ferris wheel" src="images/ferrisewheel_home.jpg">
+                <div class="slider-text">
+                    <h1>AMOY PHOTOGRAPHY</h1><a href="gallery.html">
+                    <div class="sliderbutton-gallery">
+                        GALLERY
+                    </div></a>
                 </div>
-            <div id="social">
-                <a href="https://www.instagram.com/amoyengel/" target="blank">
-                  <img id="instagram" src="images/instagram-logo-grey.png" onmouseover="this.src='images/instagram-color.png'" onmouseout="this.src='images/instagram-logo-grey.png'" alt="instagram Amoy" width="24" height="24"></a>
-            </div>    
-            </header>
-            <label for="show-menu" class="show-menu">&#9776</label>
-            <input type="checkbox" id="show-menu" role="button">
-                <ul id="navbar">
-                        <li><a href='index.html'style="color: rgb(224,163,154)">HOME</a></li>
-                        <li><a href='gallery.html'>GALLERY</a></li>
-                        <li><a href='about.html'>ABOUT</a></li>   
-                        <li><a href='contact.html'>CONTACT</a></li>
-                </ul> 
-                <div class="container">
-      <section>
-        <div class="slider">
-          <div class="slide-viewer">
-            <div class="slide-group"> <!-- slider -->
-              <div class="slide slide-1">
-                <img src="images/slider1.jpg" alt="slider1">
-              </div>
-              <div class="slide slide-2">
-                <img src="images/slider2.jpg" alt="slider2">
-              </div>
-              <div class="slide slide-3">
-                <img src="images/slider3.jpg" alt="slider3">
-              </div>
             </div>
-            <div class="slider-text"><h1>AMOY PHOTOGRAPHY</h1>
-             <a href="gallery.html"><div class="sliderbutton-gallery">GALLERY</div></a>
-            </div>
-       </div>
-        <!--    <div class="slide-buttons"></div> -->
-        </div> 
-        <div id="homeimg_mobile">
-          <img src="images/ferrisewheel_home.jpg" alt="ferris wheel">
-          <div class="slider-text"><h1>AMOY PHOTOGRAPHY</h1>
-            <a href="gallery.html"><div class="sliderbutton-gallery">GALLERY</div></a>
-           </div>
-        </div>
-        </div>
-        </div>
-        <!--<footer>
-            <p>All rights reserved 2018 | AMOYPHOTOGRAPHY.nl</p>
-            <div id="helen">
-                <a href="http://helenvangils.nl" target="blank" ><img width="15" src="images/jpnm.png" alt="logo helen"/> website by Helen</a>
-                </div>
-          </footer>   -->
-        
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="scripts/slider.js"></script> 
-    <script src="scripts/navigation.js"></script> 
-    </body>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js">
+    </script>
+    <script src="scripts/slider.js">
+    </script> 
+    <script src="scripts/navigation.js">
+    </script> 
+</body>
 </html>

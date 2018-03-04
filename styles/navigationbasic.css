@@ -1,110 +1,99 @@
-
 #navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    text-align: center;
-  }
-  
-  #navbar a {
-    display: block;
-    color: #a7a2a8;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    text-align:center;
-  }
-  
-  #navbar li{
-      display:inline;
-  }
-  
-  #navbar a{
-      display: inline-block;
-      padding: 10px;
-      font-weight: 500;
-      font-size: 120%;
-      }
-  
-  
-  #navbar li:hover a {
-      font-weight: 700;
-      color: #636263;
-  }
+	overflow: hidden;
+	background-color: #ffffff;
+	text-align: center;
+}
 
-  #navbar li a:hover {
-    color: rgb(224,163,154);
-    text-decoration: underline;
-  }
-  
-  li ul {
-    display: none;
-  }
-  
-  li ul li {
-    display: block;
-    float: none;
-  }
-  
-  li ul li a {
-    width: auto;
-    min-width: 100px;
-    padding: 0 20px;
-  }
-  
-  ul li a:hover + .hidden, .hidden:hover {
-    display: block;
-  }
-  
-  .show-menu {
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
-    font-size: 2em;
-    text-decoration: none;
-    color: #a7a2a8;
-    background: #fff;
-    text-align: left;
-    padding: 10px 10px;
-    display: none;
-  }
-  
-  
-  input[type=checkbox]{
-    display: none;
-  }
-  
-  
-  input[type=checkbox]:checked ~ #navbar{
-    display: block;
-  }
-  
-  
-  @media screen and (max-width : 760px){
-  
-    ul#navbar {
-      position: static;
-      display: none;
-      text-align:left;
-      margin: 0;
-  }
+#navbar a {
+	display: block;
+	color: #a7a2a8;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	text-align: center;
+}
 
-  #navbar  a {
-    padding: 4%;
-    text-align: left;
-} 
-  
-    li {
-        margin-bottom: 1px;
-    }
-  
-    ul li, li a {
-        width: 100%;
-          }
-          
-    #navbar a {
-        text-align:left;
-          }
-  
-    .show-menu {
-        display:block;
-    }
-  }
+#navbar li {
+	display: inline;
+}
+
+#navbar a {
+	display: inline-block;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 120%;
+}
+
+#navbar li:hover a {
+	font-weight: 700;
+	color: #636263;
+}
+
+#navbar li a:hover {
+	color: rgb(224, 163, 154);
+	text-decoration: underline;
+}
+
+li ul {
+	display: none;
+}
+
+li ul li {
+	display: block;
+	float: none;
+}
+
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+ul li a:hover+.hidden, .hidden:hover {
+	display: block;
+}
+
+.show-menu {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	text-decoration: none;
+	color: #a7a2a8;
+	background: #fff;
+	text-align: left;
+	padding: 10px 10px;
+	display: none;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+input[type=checkbox]:checked~#navbar {
+	display: block;
+}
+
+@media screen and (max-width: 760px) {
+	ul#navbar {
+		position: static;
+		display: none;
+		text-align: left;
+		margin: 0;
+	}
+	#navbar a {
+		padding: 4%;
+		text-align: left;
+	}
+	li {
+		margin-bottom: 1px;
+	}
+	ul li, li a {
+		width: 100%;
+	}
+	#navbar a {
+		text-align: left;
+	}
+	.show-menu {
+		display: block;
+	}
+}

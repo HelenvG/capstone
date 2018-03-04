@@ -1,28 +1,36 @@
 .row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+	display: -ms-flexbox;
+	/* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap;
+	/* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 .column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 22%;
-    max-width: 100%;
-    padding: 0 1%;
+	-ms-flex: 25%;
+	/* IE10 */
+	flex: 22%;
+	max-width: 100%;
+	padding: 0 1%;
 }
 
 .column img {
-    margin-top: 8px;
-    vertical-align: middle;
+	margin-top: 8px;
+	vertical-align: middle;
 }
 
-#filter_wrapper{
-	background-color:#ffffff;
+.column ul {
+    padding: 0;
+    margin: 0;
+}
+
+#filter_wrapper {
+	background-color: #ffffff;
 	position: relative;
 	margin-bottom: 5%;
 	height: auto;
@@ -30,123 +38,123 @@
 	display: block;
 	overflow: hidden;
 	padding-top: 2%;
-    padding-bottom: 2%;
+	padding-bottom: 2%;
 }
 
 #filter_container {
-    overflow: hidden;
-    background-color: #ffffff;
-    text-align: center;
-    opacity: 0.9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
-    -moz-box-shadow: 0 0 5px #a7a2a8;
-    -webkit-box-shadow: 0 0 5px#a7a2a8;
-    box-shadow: 0 0 5px #a7a2a8;
-  }
-  
-  #filter_container  a {
-    display: block;
-    color: #a7a2a8;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    text-align:center;
-    font-weight: 100;
-  }
-  
-  #filter_container  li{
-      display:inline;
-  }
-  
-  #filter_container  a{
-      display: inline-block;
-      padding: 0 10px;
-  }
-  
-  #filter_container  li:hover a {
-      text-decoration: underline;
-      color: #636263;
-  }
+	overflow: hidden;
+	background-color: #ffffff;
+	text-align: center;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	/* For IE8 and earlier */
+	-moz-box-shadow: 0 0 5px #a7a2a8;
+	-webkit-box-shadow: 0 0 5px#a7a2a8;
+	box-shadow: 0 0 5px #a7a2a8;
+}
 
-  ul#filter_wrapper {
-      padding: 0;
-  }
+#filter_container a {
+	display: block;
+	color: #a7a2a8;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 100;
+}
 
-  ul#filter_container {
-    display: inline-block;
+#filter_container li {
+	display: inline;
+}
+
+#filter_container a {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+#filter_container li:hover a {
+	text-decoration: underline;
+	color: #636263;
+}
+
+ul#filter_wrapper {
+	padding: 0;
+}
+
+ul#filter_container {
+	display: inline-block;
 }
 
 ul#filter li.current a {
-    text-decoration: underline;
+	text-decoration: underline;
 }
-ul#filter li.current a { 
-color: #000000;
+
+ul#filter li.current a {
+	color: #000000;
 }
 
 #filter_container .current {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 #amoyImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
 }
 
 #amoyImg:hover {
-    opacity: 0.8;
+	opacity: 0.8;
 }
 
 #lightbox {
-    position:fixed; /* keeps the lightbox window in the current viewport */
-    top:0; 
-    left:0; 
-    width:100%; 
-    height:100%; 
-    background: rgba(0,0,0,.7); 
-    text-align:center;
-    z-index: 1;
+	position: fixed;
+	/* keeps the lightbox window in the current viewport */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .7);
+	text-align: center;
+	z-index: 1;
 }
 
 #lightbox p {
-    text-align:right; 
-    color:#fff; 
-    margin-right:20px; 
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+	text-align: right;
+	color: #fff;
+	margin-right: 20px;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
 }
 
 #lightbox img {
-    box-shadow:0 0 25px #111;
-    -webkit-box-shadow:0 0 25px #111;
-    -moz-box-shadow:0 0 25px #111;
-    max-width:940px;
+	box-shadow: 0 0 25px #111;
+	-webkit-box-shadow: 0 0 25px #111;
+	-moz-box-shadow: 0 0 25px #111;
+	max-width: 940px;
 }
 
 img:hover {
-    opacity: 0.7;
+	opacity: 0.7;
 }
 
-@media screen and (max-width : 760px) {
-    .column {
-        -ms-flex: 50%;
-        flex: 40%;
-        max-width: 50%;
-    }
-
-#filter_container  a{
-    padding: 1% 0%;
-    text-align: left;
-} 
-
+@media screen and (max-width: 760px) {
+	.column {
+		-ms-flex: 50%;
+		flex: 40%;
+		max-width: 50%;
+	}
+	#filter_container a {
+		padding: 1% 0%;
+		text-align: left;
+	}
 }
 
 @media only screen and (max-width: 480px) {
-    .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
+	.column {
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
+	}
 }
-

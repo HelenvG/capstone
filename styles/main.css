@@ -1,169 +1,172 @@
 @charset "UTF-8";
 /* Simple fluid media
 */
+
 img, object, embed, video {
 	max-width: 100%;
 }
 
 .ie6 img {
-	width:100%;
+	width: 100%;
 }
 
 body {
-  background-color: #fff;
-  color: rgb(255, 255, 255);
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;}
+	background-color: #fff;
+	color: rgb(255, 255, 255);
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
 
-  .page {
-    max-width: 640px;
-    margin: 0 auto 30px auto;}
-  
-  .panel {
-    background-color: #fff;
-    color: #666;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
-    overflow: auto;}
+.page {
+	max-width: 640px;
+	margin: 0 auto 30px auto;
+}
 
-    div.container {
-      width: 100%;
-      border: 1px solid gray;
-  }
+.panel {
+	background-color: #fff;
+	color: #666;
+	box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+	overflow: auto;
+}
 
-  footer { 
-    width: 100%;
-    display: block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 4%;
-    margin-top: 20px;
-    clear: both;
+div.container {
+	width: 100%;
+	border: 1px solid gray;
+}
+
+footer {
+	width: 100%;
+	display: block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 4%;
+	margin-top: 20px;
+	clear: both;
 }
 
 #social {
-height: auto;
-position: absolute;
-top: 4%;
-right: 4%;
-float: right;
+	height: auto;
+	position: absolute;
+	top: 4%;
+	right: 4%;
+	float: right;
 }
 
 #helen {
-  float: left;
-  bottom: 2%;
-  left: 2%;
+	float: left;
+	bottom: 2%;
+	left: 2%;
 }
-  
-  button {
-    border: none;}
+
+button {
+	border: none;
+}
 
 #logo {
-  margin-left: 4%;
-  padding-top: 1%;
+	margin-left: 4%;
+	padding-top: 1%;
 	height: auto;
-	display: block;	
+	display: block;
 }
 
-  h1 {
-    text-align: center;
-    white-space: nowrap;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-    font-weight:200;
-    font-size: 4vw;
-  } 
-  
-  body, button {
-      font-family: 'Roboto', sans-serif;
-    }
-  
-  h2, h3 {
-    font-weight: normal;
-    margin: 0;
-    color: #a7a2a8;}
-
-  h2 {
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
-    font-size: 230%;
-    line-height: 1em;
-    /* padding: 20px 0 0 20px;   */}
-
-  h3 {
-    font-size: 90%;
-    letter-spacing: 0.2em;}
-  
-  p {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.4em;
-    color: #a7a2a8;
-   margin: 0.1em;}
-  
-  a {
-      text-decoration: none;
-      font-family: 'Roboto', sans-serif;
-      color: #a7a2a8;
-      font-weight: bolder;
-    }
-  
-   a:hover {
-    color: rgb(224,163,154);
+h1 {
+	text-align: center;
+	white-space: nowrap;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: 200;
+	font-size: 4vw;
 }
 
-  button {
-    font-size: 90%;
-    text-align: left;
-    text-transform: uppercase;}
+body, button {
+	font-family: 'Roboto', sans-serif;
+}
 
-  
-  #billboard {text-align: center;}
-  .js-warning {display: none;}
-  
-  .no-js .js-warning {
-    display: block;
-    border: 3px solid #fff;
-    text-align: center;
-    background-color: #fff;
-    color: #db5391;
-    padding: 10px;}
+h2, h3 {
+	font-weight: normal;
+	margin: 0;
+	color: #a7a2a8;
+}
 
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	font-size: 230%;
+	line-height: 1em;
+	/* padding: 20px 0 0 20px;   */
+}
 
-    @media only screen and (max-width: 480px) {
+h3 {
+	font-size: 90%;
+	letter-spacing: 0.2em;
+}
 
-      body{
-        margin: 0;
-        padding: 0;
-        border: none;
-        
-      }
+p {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.4em;
+	color: #a7a2a8;
+	margin: 0.1em;
+}
 
-      .slider {
-        display: none;
-      }
+a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #a7a2a8;
+	font-weight: bolder;
+}
 
-    
-      
+a:hover {
+	color: rgb(224, 163, 154);
+}
 
-      }
+button {
+	font-size: 90%;
+	text-align: left;
+	text-transform: uppercase;
+}
 
-    @media screen and (max-width : 760px){
-      
-      #logo {
-        height: auto;
-        width: 20vw;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2vh;
-      }
+#billboard {
+	text-align: center;
+}
 
-      #helen{
-        display: block;
-        width: 100%;
-        clear: both;
-        padding-top: 2%;
-        }
+.js-warning {
+	display: none;
+}
 
+.no-js .js-warning {
+	display: block;
+	border: 3px solid #fff;
+	text-align: center;
+	background-color: #fff;
+	color: grey;
+	padding: 10px;
+}
 
-    }
+@media only screen and (max-width: 480px) {
+	body {
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	.slider {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	#logo {
+		height: auto;
+		width: 20vw;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2vh;
+	}
+	#helen {
+		display: block;
+		width: 100%;
+		clear: both;
+		padding-top: 2%;
+	}
+}

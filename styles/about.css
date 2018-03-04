@@ -1,60 +1,59 @@
-.row{
-    width: 90vw;
-    margin-left: 5vw;
-    margin-left: 5vw;
+.row {
+	width: 90vw;
+	margin-left: 5vw;
+	margin-left: 5vw;
 }
 
 .columnleft {
-    float: left;
-    width: 42%;
-    margin-top: 2%;
-    margin-left: 10%;
-    padding-top: 2%;
-    text-align: left;
+	float: left;
+	width: 42%;
+	margin-top: 2%;
+	margin-left: 10%;
+	padding-top: 2%;
+	text-align: left;
 }
 
 .columnright {
-    float: left;
-    width: 28%;
-    margin-top: 4%;
-    margin-right: 10%;
-    margin-left: 4%;
-    padding-top: 2%;
-    text-align: center;
-    background-color: lightgrey;
-    height: 100vh;
+	float: left;
+	width: 28%;
+	margin-top: 4%;
+	margin-right: 10%;
+	margin-left: 4%;
+	padding-top: 2%;
+	text-align: center;
+	background-color: lightgrey;
+	height: 100vh;
 }
 
 #media h2 {
-    color: white;
+	color: white;
 }
 
-#media p{
-    color:white;
+#media p {
+	color: white;
 }
 
 .portaitamoy {
-    width:170px;
-    height:170px;
-    margin-right:5%;
-    padding-bottom: 2%;
-    float: left;
+	width: 170px;
+	height: 170px;
+	margin-right: 5%;
+	padding-bottom: 2%;
+	float: left;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 @media (max-width: 600px) {
-    .columnleft {
-        width: 90%;
-        padding: 4%;
-    }
-
-    .columnright {
-        width: 90%;
-        padding: 4%;
-    }
+	.columnleft {
+		width: 90%;
+		padding: 4%;
+	}
+	.columnright {
+		width: 90%;
+		padding: 4%;
+	}
 }
