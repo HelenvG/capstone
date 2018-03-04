@@ -106,9 +106,3 @@
 	}
 }
 
-@media (max-width: 600px) {
-	.column {
-		width: 90%;
-		padding: 4%;
-	}
-}
